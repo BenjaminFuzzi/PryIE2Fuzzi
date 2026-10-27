@@ -29,7 +29,7 @@ namespace PryIE2Fuzzi
         {
             FrmMain main = new FrmMain();
             main.Show();
-            this.Hide();
+            this.Close();
         }
     }
 }

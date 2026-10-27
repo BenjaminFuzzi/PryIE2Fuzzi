@@ -16,7 +16,21 @@ namespace PryIE2Fuzzi
 
         private void salirToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            this.Close();
+            Close();
+        }
+
+        private void productosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmProductos productos = new frmProductos();
+            productos.Show();
+            this.Hide();
+        }
+
+        private void proveedoresToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmProveedores proveedores = new frmProveedores();
+            proveedores.Show();
+            this.Hide();
         }
     }
 }
